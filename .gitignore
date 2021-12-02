@@ -1,3 +1,11 @@
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
 # Logs
 logs
 *.log
@@ -67,3 +75,5 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+/.idea/
+/gatsby-plugin-graphql-codegen-error.iml

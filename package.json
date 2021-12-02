@@ -20,7 +20,9 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "prettier": "^2.4.1"
+    "gatsby-plugin-graphql-codegen": "^3.1.0",
+    "prettier": "^2.4.1",
+    "typescript": "^4.5.2"
   },
   "keywords": [
     "gatsby"
@@ -41,5 +43,6 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
-  }
+  },
+  "packageManager": "yarn@3.1.1"
 }
